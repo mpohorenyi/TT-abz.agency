@@ -2,19 +2,21 @@
 @use '../../styles/variables/colors';
 
 .button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  cursor: pointer;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100px;
+  height: 34px;
+
+  background: colors.$primary__color;
   border-radius: 80px;
 
-  height: 34px;
-  background: colors.$primary__color;
-  cursor: pointer;
-  width: 100px;
-
   &__text {
-    @extend .text-black;
+    @extend %text-black;
+
     text-transform: capitalize;
   }
 }

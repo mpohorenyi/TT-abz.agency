@@ -1,9 +1,10 @@
 /* Utils */
-@import './styles/_reset.scss';
+@import './styles/reset';
 @import './styles/font';
 
 :root {
-  font-family: 'Nunito', 'sans-serif';
   scroll-behavior: smooth;
-  // box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+
+  // box-sizing: border-box;box-sizing
 }
