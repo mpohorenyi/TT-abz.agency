@@ -1,0 +1,15 @@
+@use '../variables/colors';
+
+@each $name, $color in colors.$text-colors {
+  .title-#{$name} {
+    font-size: 40px;
+    line-height: 40px;
+    color: $color;
+  }
+
+  .text-#{$name} {
+    font-size: 16px;
+    line-height: 26px;
+    color: $color;
+  }
+}

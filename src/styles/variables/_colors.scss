@@ -7,3 +7,10 @@ $white__color: #ffffffde;
 $gray__color: #7e7e7e;
 $light-gray__color: #b4b4b4;
 $error__color: #cb3d40;
+
+$text-colors: (
+  "black": $black__color,
+  "white": $white__color,
+  "gray": $gray__color,
+  "error": $error__color,
+);

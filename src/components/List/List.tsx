@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Card } from '../Card';
 
-import './Card.scss';
+import './List.scss';
 
 const users = [1, 2, 3];
 

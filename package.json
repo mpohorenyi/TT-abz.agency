@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^1.6.4",
+    "classnames": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.69.7",
@@ -11,6 +12,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/eslint": "^8.56.1",
     "@types/node": "^16.18.69",
     "@types/react": "^18.2.46",
