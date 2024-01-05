@@ -39,7 +39,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint . --fix",
     "stylelint": "stylelint 'src/**/*.{css,scss}' --fix",
     "fix-style": "npm run lint & npm run stylelint"
   },

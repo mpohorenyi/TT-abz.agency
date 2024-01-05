@@ -3,4 +3,5 @@ public/
 build/
 
 *.css
+*.scss
 *.svg
