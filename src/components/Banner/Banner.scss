@@ -1,1 +1,55 @@
+@use '../../styles/mixins/media';
+@use '../../styles/mixins/typography';
 
+.banner {
+  @include media.onTablet {
+    justify-content: center;
+    padding-inline: 194px;
+    background-position: -952.661px -317.009px;
+  }
+
+  @include media.onDesktop {
+    height: 650px;
+    padding-inline: 322px;
+    background-position: -1270.215px -412.112px;
+  }
+
+  @include media.onWideDesktop {
+    padding-inline: 395px;
+    background-position: -695px -842.321px;
+    background-size: 218.803% 262.115%;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 500px;
+  padding-top: 40px;
+  padding-inline: 16px;
+
+  text-align: center;
+
+  background-color: lightgray;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url('../../static/images/main-banner.jpeg');
+  background-repeat: no-repeat;
+  background-position: -446.56px -317.009px;
+  background-size: 342.315% 164.03%;
+
+  &__title {
+    @extend %title-white;
+
+    padding-bottom: 21px;
+  }
+
+  &__text {
+    @extend %text-white;
+
+    padding-bottom: 32px;
+  }
+}

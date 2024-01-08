@@ -1,24 +1,10 @@
 @use '../../styles/mixins/media';
 
 .header {
-  @include media.onTablet {
-    padding-inline: 32px;
-  }
-
-  @include media.onDesktop {
-    padding-inline: 60px;
-  }
-
-  @include media.onWideDesktop {
-    padding-inline: 0px;
-  }
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   height: 60px;
-  padding-inline: 16px;
 
   &__nav {
     display: flex;

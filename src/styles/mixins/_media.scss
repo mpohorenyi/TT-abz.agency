@@ -11,7 +11,7 @@
 }
 
 @mixin onWideDesktop {
-  @media (min-width: 2560px) {
+  @media (min-width: 1170px) {
     @content;
   }
 }

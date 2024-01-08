@@ -6,12 +6,12 @@ import './Header.scss';
 
 export const Header: React.FC = () => {
   return (
-    <header className="header">
+    <header className="container header">
       <Logo />
 
       <nav className="header__nav">
         <Button title="Users" href="users" />
-        <Button title="Sing Up" href="registration" />
+        <Button title="Sing up" href="registration" />
       </nav>
     </header>
   );

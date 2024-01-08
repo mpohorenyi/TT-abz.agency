@@ -9,12 +9,12 @@ import { List } from './components/List';
 
 const App: React.FC = () => {
   return (
-    <div>
+    <>
       <Header />
       <Banner />
       <List />
       <Form />
-    </div>
+    </>
   );
 };
 

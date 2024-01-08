@@ -1,10 +1,13 @@
+/* Blocks */
+@import './styles/blocks/page';
+@import './styles/blocks/container';
+
 /* Utils */
 @import './styles/reset';
 @import './styles/font';
 
 :root {
   scroll-behavior: smooth;
+  box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
-
-  // box-sizing: border-box;box-sizing
 }
