@@ -5,11 +5,12 @@ import './Button.scss';
 
 type Props = {
   title: string;
+  href: string;
 };
 
-export const Button: React.FC<Props> = ({ title }) => {
+export const Button: React.FC<Props> = ({ title, href }) => {
   return (
-    <a href="title" className="button">
+    <a href={`#${href}`} className="button">
       <p className="button__text">{title}</p>
     </a>
   );
