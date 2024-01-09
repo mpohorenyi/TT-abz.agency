@@ -1,5 +1,11 @@
+@use '../variables/colors';
+
 .page {
-  min-width: 360px;
   max-width: 1170px;
   margin: 0 auto;
+  background-color: colors.$background__color;
+
+  &__banner {
+    margin-bottom: 140px;
+  }
 }

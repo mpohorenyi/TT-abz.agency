@@ -4,6 +4,7 @@
 .banner {
   @include media.onTablet {
     justify-content: center;
+    padding-top: 0px;
     padding-inline: 194px;
     background-position: -952.661px -317.009px;
   }
@@ -44,12 +45,12 @@
   &__title {
     @extend %title-white;
 
-    padding-bottom: 21px;
+    margin-bottom: 21px;
   }
 
   &__text {
     @extend %text-white;
 
-    padding-bottom: 32px;
+    margin-bottom: 32px;
   }
 }

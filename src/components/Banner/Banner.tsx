@@ -5,7 +5,7 @@ import './Banner.scss';
 
 export const Banner: React.FC = () => {
   return (
-    <div className="banner">
+    <div className="page__banner banner">
       <h1 className="banner__title">Test assignment for front-end developer</h1>
 
       <p className="banner__text">
