@@ -2,7 +2,7 @@ import cn from 'classnames';
 import React, { useEffect, useState } from 'react';
 
 import { getUsers } from '../../api/service';
-import { User } from '../../types/User';
+import { User } from '../../types';
 
 import { Card } from '../Card';
 import { Preloader } from '../Preloader';
@@ -34,7 +34,7 @@ export const Users: React.FC = () => {
   }, [currentPage]);
 
   return (
-    <section className="container users">
+    <section className="container users" id="users">
       <h2 className="users__title">Working with GET request</h2>
 
       {isLoading && <Preloader />}
