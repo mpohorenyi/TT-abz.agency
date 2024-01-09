@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "./static/css/main.cbbe78b9.css",
+    "main.js": "./static/js/main.4f1b3576.js",
+    "static/js/787.9494d22c.chunk.js": "./static/js/787.9494d22c.chunk.js",
+    "static/media/main-banner.jpeg": "./static/media/main-banner.be7665f876bbd9138501.jpeg",
+    "static/media/nunito-regular.ttf": "./static/media/nunito-regular.9d7a6e03c6e3ed49c7ac.ttf",
+    "static/media/Logo.svg": "./static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
+    "index.html": "./index.html",
+    "main.cbbe78b9.css.map": "./static/css/main.cbbe78b9.css.map",
+    "main.4f1b3576.js.map": "./static/js/main.4f1b3576.js.map",
+    "787.9494d22c.chunk.js.map": "./static/js/787.9494d22c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbbe78b9.css",
+    "static/js/main.4f1b3576.js"
+  ]
+}
